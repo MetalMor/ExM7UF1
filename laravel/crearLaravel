@@ -1,0 +1,11 @@
+http://laravel.com/docs/5.1
+
+Once installed, the simple laravel new command will create a fresh Laravel installation in the directory you specify. For instance, laravel new blog will create a directory named blog containing a fresh Laravel installation with all of Laravel's dependencies already installed. This method of installation is much faster than installing via Composer:
+
+laravel new blog
+
+Via Composer Create-Project
+
+You may also install Laravel by issuing the Composer create-project command in your terminal:
+
+composer create-project laravel/laravel --prefer-dist

@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+		<title>EXEMPLES DE FORMULARIS</title>	
+	</head>  
+	<body>
+		<form name=frm_combo action="http://localhost/ex24.php" method="POST">
+			<font face="Arial">
+				Selecciona la ciutat:<br>
+				<select name="ciutat" onChange="frm_combo.submit();">
+                                    
+                                    <option value="Barcelona">Barcelona</option>
+                                    <option value="Madrid">Madrid</option>
+                                    <option value="Paris">Paris</option>
+                                    <option value="Londres">Londres</option>
+                                    <option value="Washington">Washington</option>
+                                    <option value="Roma">Roma</option>
+                                    <option value="Tokyo">Tokyo</option>
+                                    <option value="El Caire">El Caire</option>
+                                    <option value="Canberra">Canberra</option>
+                                    <option value="Buenos Aires">Buenos Aires</option>
+                                
+				</select>
+                                <br>
+                                Escriu un país: <input type="text" name="pais" />
+                                <input type="submit" />
+			</font>
+		</form>
+	</body>
+</html>
